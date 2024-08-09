@@ -1,0 +1,92 @@
+body {
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: #f0f0f0;
+    color: #4d4c4c;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+#myinput {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    width: 50%;
+    max-width: 400px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    outline: none ;
+    transition: border-color 0.3s ease;
+}
+
+#myinput:focus {
+    border-color: #45a049;
+}
+
+#mybutton {
+    text-align: center;
+    color: white;
+    background-color: #4CAF50;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    outline: none;
+}
+
+#mybutton:hover {
+    cursor: pointer;
+    background-color: #54b859;
+    transform: scale(1.1);
+}
+
+#mybutton:active {
+    background-color: #24aa28;
+}
+
+#mylabel {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#correct{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    color: #24aa28;
+    display: block;
+    margin-top: 20px;
+
+
+
+}
+
+
+#low, #high {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: red;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
