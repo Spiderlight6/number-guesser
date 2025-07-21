@@ -39,7 +39,8 @@ Submit.onclick = function() {
         
             } else {
                 Low.textContent = ""
-                Correct.textContent = `CONGRATULATIONS! It took you  ${score} attempts`;
+                Correct.textContent = `CONGRATULATIONS! Elaf Omar Doesn't know how to play this game 
+                                        your score ${score}`;
                 running = false;
             }
         }
