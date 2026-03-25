@@ -15,15 +15,13 @@ let score = 0;
 
 
 
-
-
-Submit.onclick = function() {
+const run = function() {
     const guessValue = guess.value;
 
     
 
     if (isNaN(guessValue)) {
-        Low.textContent = `Please enter a valid number`;
+        Low.textContent = `Please enter a valid number not letters`;
     } else {
         const guessNum = Number(guessValue);
 
@@ -39,7 +37,7 @@ Submit.onclick = function() {
         
             } else {
                 Low.textContent = ""
-                Correct.textContent = `CONGRATULATIONS! Elaf Omar Doesn't know how to play this game 
+                Correct.textContent = `CONGRATULATIONS! 
                                         your score ${score}`;
                 running = false;
             }
@@ -47,4 +45,9 @@ Submit.onclick = function() {
     }
 };
 
-
+Submit.onclick = run;
+guess.addEventListener("keypress", function(event){
+    if (event.key === "Enter") {
+    run();
+  }
+});
